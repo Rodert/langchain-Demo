@@ -1,0 +1,28 @@
+# 核心依赖
+langchain>=0.1.0
+langchain-openai>=0.0.2
+langchain-ollama>=0.0.1
+python-dotenv>=1.0.0
+
+# 向量数据库和嵌入
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# 文档处理
+langchain-community>=0.0.10
+pypdf>=3.15.1
+docx2txt>=0.8
+unstructured>=0.10.30
+markdown>=3.4.3
+
+# 网络请求
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+
+# 数据处理
+pandas>=2.0.3
+numpy>=1.24.3
+
+# 可选的本地模型支持
+transformers>=4.35.2
+torch>=2.0.1 
